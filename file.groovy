@@ -8,8 +8,8 @@ pipeline {
   }
 
   environment {
-    SSH_CRED    = 'deploy-ssh'   // Jenkins Credentials ID (SSH Private Key)
-    REMOTE_USER = 'deploy'       // 리눅스 접속 계정
+    SSH_CRED    = '	local_vm'   // Jenkins Credentials ID (SSH Private Key)
+    REMOTE_USER = 'root'       // 리눅스 접속 계정
   }
 
   stages {
