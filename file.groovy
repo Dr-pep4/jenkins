@@ -8,7 +8,7 @@ pipeline {
   }
 
   environment {
-    SSH_CRED    = '	local_vm'   // Jenkins Credentials ID (SSH Private Key)
+    SSH_CRED    = 'local_vm'   // Jenkins Credentials ID (SSH Private Key)
     REMOTE_USER = 'root'       // 리눅스 접속 계정
   }
 
